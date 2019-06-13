@@ -1,0 +1,9 @@
+CIMSURL: https://qa.agspan.com/CIMS
+BeefURL: https://eks-qa.agspan.com/Beef 
+ThirdpartyURL: https://eks-qa.agspan.com/thirdparty
+log:
+    file_name: logintest.log
+    backup: 5
+    console_level: DEBUG
+    file_level: DEBUG
+    pattern: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
